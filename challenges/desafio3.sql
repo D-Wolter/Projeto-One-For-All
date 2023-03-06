@@ -1,5 +1,5 @@
 SELECT
-  u.usuario_nome,
+  u.usuario_nome pessoa_usuaria,
   COUNT(h.usuario_id) musicas_ouvidas,
   ROUND(SUM(m.duracao_em_segundos) / 60, 2) total_minutos
 FROM historico h
