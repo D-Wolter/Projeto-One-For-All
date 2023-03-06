@@ -52,7 +52,7 @@ FOREIGN KEY(musica_id) REFERENCES musica(musica_id)
 CREATE TABLE seguindo(
 usuario_id INT NOT NULL,
 artista_id INT NOT NULL,
-PRIMARY KEY(usuario_id, artista_id),
+CONSTRAINT PRIMARY KEY(usuario_id, artista_id),
 FOREIGN KEY(usuario_id) REFERENCES usuario(usuario_id),
 FOREIGN KEY(artista_id) REFERENCES artista(artista_id)
 ) engine = InnoDB;
