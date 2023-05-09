@@ -1,10 +1,11 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Projeto One for all
+Segundo projeto de SQL, onde dessa vez foi preciso fazer a normalização de uma tabela até a 3° forma normal e logo após realizar uns comandos mais complexos como:
+   - Criar o banco de dados
+   - Criar QUERY com INNER JOIN para juntar tabelas
+   - QUERY de pesquisa baseado na data
+   - QUERY para pesquisar por um nome específico
+
+---
+## Tecnologias utilizadas
+ - SQL
+ - MySQL
